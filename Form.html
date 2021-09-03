@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<!-- Body Background Color -->
+<body bgcolor=" #6D9197">
+    <form action="#" name="Registration Form" onsubmit="return(validate());">
+    <!-- Setting size and color of Table -->
+        <table cellpadding="8" width="50%" bgcolor="#C4CDC1" align="center" cellpacing="1">
+            <!-- 1. Regitration Form Heading-->
+            <tr>
+                <td colspan=2>
+                    <center>
+                        <font size=4><b>Registration Form</b></font>
+                    </center>
+                </td>
+            </tr>
+    <!-- 2. Name section -->
+            <tr>
+                <td>Name*</td>
+                <td><input type=text name=textnames id="textname" size="50"></td>
+            </tr>
+    <!-- 3. Sex -->
+            <tr>
+                <td>Sex*</td>
+                <td> <input type="radio" name="sex" value="male" size="10">Male <input type="radio" name="sex"
+                        value="Female" size="10">Female
+                    <input type="radio" name="sex" value="Other" size="10">Other
+                </td>
+            </tr>
+    <!-- 4. Father Name* -->
+            <tr>
+                <td>Father Name</td>
+                <td><input type="text" name="fathername" id="fathername" size="50"></td>
+            </tr>
+    <!-- 5. Email Id* -->
+            <tr>
+                <td>Email Id*</td>
+                <td><input type="text" name="emailid" id="emailid" size="30"></td>
+            </tr>
+    <!-- 6. DOB* -->
+            <tr>
+                <td>DOB*</td>
+                <td><input type="text" name="dob" id="dob" size="30"></td>
+            </tr>
+    <!-- 7. Mobile no.* -->
+            <tr>
+                <td>MobileNo*</td>
+                <td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+            </tr>
+    <!-- 8. Address of your -->
+            <tr>
+                <td>Personal Address</td>
+                <td><input type="text" name="address" id="address" size="70"></td>
+            </tr>
+    <!-- 9. City -->
+            <tr>
+                <td>City</td>
+                <td><select name="City">
+                        <option value="-1" selected>select..</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Kanpur">Kanpur</option>
+                        <option value="Nagpur">Nagpur</option>
+                    </select></td>
+            </tr>
+    <!-- 10. States -->
+            <tr>
+                <td>State</td>
+                <td><select Name="State">
+                        <option value="-1" selected>select..</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Tamil">Tamil Nadu</option>
+                        <option value="West">West Bengal</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Utter">Uttar Pradesh</option>
+                        <option value="Madhya">Madhya Pradesh</option>
+                        <option value="Bihar">BIHAR</option>
+                        <option value="Punjab">Punjab</option>
+                    </select></td>
+            </tr>
+    <!-- 11. Pincode -->
+            <tr>
+                <td>PinCode</td>
+                <td><input type="text" name="pincode" id="pincode" size="20"></td>
+            </tr>
+    <!-- 12. Reset and Submit Form  -->
+            <tr>
+                <td><input type="reset"></td>
+                <td colspan="2"><input type="submit" value="Submit Form" /></td>
+            </tr>
+    </table>
+    </form>
+
+</body>
+</html>
