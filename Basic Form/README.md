@@ -16,7 +16,7 @@ HTML Form is a document which stores information of a user on a web server using
 
 <br />
 
-![alt text](https://github.com/ayush-sleeping/Form-Page-/blob/main/Screenshot%20of%20OUTPUT.png)
+![alt text](https://github.com/ayush-sleeping/Basic-Form/blob/main/Basic%20Form/Screenshot%20of%20OUTPUT.png)
 
 <hr>
 
