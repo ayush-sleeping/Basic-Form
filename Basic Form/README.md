@@ -22,7 +22,7 @@ You can see [Output](https://basicform-ayushsleeping.netlify.app/) here !
 
 <br>
 
-![alt text](https://github.com/ayush-sleeping/Basic-Form/blob/main/Basic%20Form/Screenshot%20of%20OUTPUT.png)
+![alt text](https://github.com/ayush-sleeping/HTML-mini-Projects/blob/main/Basic%20Form/Screenshot%20of%20OUTPUT.png)
 
 <hr>
 
