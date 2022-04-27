@@ -1,5 +1,6 @@
 # Favicon
-Code to add 🏗️ Favicon ( Logo in Tile Bar ) .
+- Code to add 🏗️ Favicon ( Logo in Tile Bar ) .
+- Hosted [here](https://favicon-ayushsleeping.netlify.app/) .
 
 ## About Favicon: 
 
@@ -9,14 +10,19 @@ browsers will then make use of it. Browsers that provide favicon support typical
 and next to the page's name in a list of bookmarks. Browsers that support a tabbed document interface typically show a page's favicon next to the page's title on the tab,
 and site-specific browsers use the favicon as a desktop icon.
 
-## :camera: What the Project looks like:
--
-![alt text](https://github.com/ayush-sleeping/Favicon/blob/main/Output%20of%20code.jpeg)
+## :camera: Output:
+
+You can see [Output](https://favicon-ayushsleeping.netlify.app/) here !
+
+<br>
+
+![alt text](https://github.com/ayush-sleeping/HTML-mini-Projects/blob/main/Favicon%20Code/Output%20of%20code.jpeg)
 
 ## Objective and Requirements:
  - Goal: To add a Favicon in our Website
  - Dev tools:  &nbsp; <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> .
  - Required: editor and browser
+ - Visit [here](https://favicon-ayushsleeping.netlify.app/) to see the output.
  
  ##  What I am Covering:
  - Using HTML ( Creating the structure 🚧 ) and adding Favicon code in "Head" tag 
@@ -24,6 +30,7 @@ and site-specific browsers use the favicon as a desktop icon.
  < link rel="icon" href= " *subsitute your logo path here* " type= " image/icon type ( here you have to specify type ) " >
  
  <hr>
+ 
  
  ## Here I have created a basic "Favicon Project" where I am showing how to add Favicon,
  <br>
