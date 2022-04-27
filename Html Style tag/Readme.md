@@ -4,6 +4,7 @@ Here I have created a basic Web-Page 🚧 where I am using only Style tag to giv
 <br/>
 <br/>
 
+- Hosted [here](https://styletag-ayushsleeping.netlify.app/) .
 - The <style> ⚡ tag is used to define style information (CSS) for a document.
 - Inside the <style> element you specify how HTML elements should render in a browser.
   
@@ -13,9 +14,9 @@ Here I have created a basic Web-Page 🚧 where I am using only Style tag to giv
 - Goal: Design a Webpage using "style" Tag
 - Dev tools: &nbsp; <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
     * Using HTML ( Creating the structure 🏗️ ) 
-    
 - Required: editor and browser
-  
+- Visit [here](https://styletag-ayushsleeping.netlify.app/) to see the output.
+ 
 ## Here I have created a basic "Landing Website" ,
 - Since, I have not yet covered CSS (during this making), the style of development I use to build this page will not be the most efficient
 - I'll be using inline style formatting which is considered outdated 
@@ -23,8 +24,12 @@ Here I have created a basic Web-Page 🚧 where I am using only Style tag to giv
 - Aside from that I'll be employing many useful skills that will carry forward such as object insertion, text formatting form development and basic styling.
   
 ## :camera: Snapshot:
+
+You can see [Output](https://styletag-ayushsleeping.netlify.app/) here !
+
+<br>
   
-![alt text](https://github.com/ayush-sleeping/HTML-Style-tag/blob/main/Screenshot%20of%20Output.png)
+![alt text](https://github.com/ayush-sleeping/HTML-mini-Projects/blob/main/Html%20Style%20tag/Screenshot%20of%20Output.png)
  
  <div align="center">
 
