@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements</title>
+    <style>
+        #header{
+            background-color: lightblue;
+            padding: 25px;
+            
+        }
+        #navbar{
+            background-color: lightcoral;
+            padding: 10px;
+        }
+        #main{
+            background-color: lightgoldenrodyellow;
+            padding: 24px ;
+        }
+        #section{
+            background-color: lightgreen;
+            padding: 15px;
+        }
+        .article{
+            background-color: lightskyblue;
+            padding: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .details{
+            background-color: lightpink;
+            padding: 10px;
+        }
+        .footer{
+            background-color: lightslategray;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <header id="header">
+        <nav id="navbar">
+            <span>Menu 1</span>
+            <span>Menu 2</span>
+            <span>Menu 3</span>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="section">
+            <article class="article">
+                <header>
+                    <h3> Article 1</h3>
+                    <a href="#">Author one</a>
+                </header>
+                <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, velit?
+                </p>
+            </article>
+            <article class="article">
+                <header>
+                    <h3> Article 2</h3>
+                    <a href="#">Author Two</a>
+                </header>
+                <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, velit?
+                </p>
+            </article>
+            <article class="article">
+                <header>
+                    <h3> Article 3</h3>
+                    <a href="#">Author Three</a>
+                </header>
+                <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, velit?
+                </p>
+            </article>
+        </section>
+
+        <br>
+
+
+        <details class="details">
+            <summary> This is a Summary Text</summary>
+            <p>This is paragraph</p>
+        </details>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Copyright 2022
+        </p>
+    </footer>
+</body>
+</html>
