@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Tables </title>
+    <style>
+        table{
+            width: 600px;
+            background-color: lightseagreen;
+            margin-top: 60px;
+           margin-left: 250px;
+        }
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 25px;
+        }
+        td, th {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body style="background-color: lightcyan;">
+    <table>
+        <caption> My Weekly Timetable: </caption>
+        
+        <tr>
+            <td rowspan="6">Hours</td>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>DBMS</td>
+            <td>Networking</td>
+            <td>OOPs</td>
+            <td>C++</td>
+            <td>Data Structure</td>
+        </tr>
+        <tr>
+            <td> Android Development</td>
+            <td> Programming with C</td>
+            <td> Algorithm</td>
+            <td> Discrete Mathematics</td>
+            <td> Algorithm</td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align: center;">
+                Break
+            </td>
+        </tr>
+        <tr>
+            <td>DBMS</td>
+            <td>Networking</td>
+            <td>OOPs</td>
+            <td>C++</td>
+            <td>Data Structure</td>
+        </tr>
+        <tr>
+            <td> Android Development</td>
+            <td> Programming with C</td>
+            <td> Algorithm</td>
+            <td> Discrete Mathematics</td>
+            <td> Algorithm</td>
+        </tr>
+    </table>
+</body>
+</html>
